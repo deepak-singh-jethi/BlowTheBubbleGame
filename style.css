@@ -88,4 +88,45 @@ html,body{
 }
 
 
+@media only screen and (max-width:790px) and (min-width:420px){
+   h2{
+      font-size: 18px
+    }
+    .box{
+        padding: 3px 12px ;
+        font-size: 13px; 
+    }
+    .details_child {
+        
+        gap: 10px;
+    }
+    .main {
+        height: 95%;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:420px) {
+    h2 {
+        font-size: 20px
+    }
+
+    .box {
+        padding: 3px 12px;
+        font-size: 16px;
+    }
+   .detail{
+    flex-direction: column;
+
+   }
+    .details_child {
+
+        gap: 10px;
+    }
+
+    .main {
+        height: 95%;
+        width: 90%;
+    }
+}
+
 
