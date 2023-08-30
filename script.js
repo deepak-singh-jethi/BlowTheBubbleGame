@@ -18,7 +18,7 @@ function timer() {
 
 function makeBubble() {
   var bubbles = "";
-  for (let i = 1; i < 137; i++) {
+  for (let i = 1; i < 153; i++) {
     let number = Math.floor(Math.random() * 10);
     bubbles += `<div class = "point">${number}</div>`;
   }
